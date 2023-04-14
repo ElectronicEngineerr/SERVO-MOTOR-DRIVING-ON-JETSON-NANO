@@ -62,8 +62,8 @@ But in Jetson nano this is not so easy, because Jetson nano does not have any an
    -  Connect pin 5V of jetson nano to connector +V pin pin on pca9685
    -  Connect pin GND of jetson nano to connector GND pin pin on pca9685
    PCA9685 - SERVO MOTOR:
-       The servo motors are already made by color:
-       we will connect brown to brown, yellow to yellow, red to red
+    The servo motors are already made by color.
+    we will connect brown to brown, yellow to yellow, red to red.
         - black pin of servo connect to black pin of channel 0 of pca9685
         - red pin of servo connect to red pin of channel 0 of pca9685
         - yellow pin of servo connect to yellow pin of channel 0 of pca9685
