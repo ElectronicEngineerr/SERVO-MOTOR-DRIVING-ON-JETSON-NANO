@@ -48,23 +48,25 @@ But in Jetson nano this is not so easy, because Jetson nano does not have any an
 `sudo pip3 install adafruit-circuitpython-servokit==1.3.0`
 
 6) Now let's make the connections of the servo motor...
+ - The diagram below shows an example diagram from fritzing. I used a raspberry pi as Jetson is not defined in nano fritzing. Because there is no difference between raspberry pi and jetson nano pins
+
 
 ![JETSON NANO - PCA9685- SERVO MOTORS](https://github.com/ElectronicEngineerr/SERVO-MOTOR-DRIVING-ON-JETSON-NANO/blob/main/Untitled%20Sketch%203_bb.png)
 
 
-> JETSON NANO - PCA9685:
+  JETSON NANO - PCA9685:
    -  Connect pin 3V3 of jetson nano to vcc pin on pca9685
    -  Connect pin 3 of jetson nano to sda pin on pca9685
    -  Connect pin 5 of jetson nano to scl pin on pca9685
    -  Connect pin GND of jetson nano to GND  on pca9685
    -  Connect pin 5V of jetson nano to connector +V pin pin on pca9685
    -  Connect pin GND of jetson nano to connector GND pin pin on pca9685
- >  PCA9685 - SERVO MOTOR:
+   PCA9685 - SERVO MOTOR:
        The servo motors are already made by color:
-       we will connect brown to brown, yellow to yellow, red to red...
-       - black pin of servo connect to black pin of channel 0 of pca9685
-       - red pin of servo connect to red pin of channel 0 of pca9685
-       - yellow pin of servo connect to yellow pin of channel 0 of pca9685
+       we will connect brown to brown, yellow to yellow, red to red
+        - black pin of servo connect to black pin of channel 0 of pca9685
+        - red pin of servo connect to red pin of channel 0 of pca9685
+        - yellow pin of servo connect to yellow pin of channel 0 of pca9685
 
 
 7) Now you can switch to the python compiler and write the necessary codes to spin our engine.
