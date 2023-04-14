@@ -17,6 +17,9 @@ But in Jetson nano this is not so easy, because Jetson nano does not have any an
 1) We need a few libraries as we will write our codes in Jetson Nano using python 3x. some of them come while installing sdk manager on jetson nano, but some of them we have to download manually from the terminal. Most importantly, the versions of the libraries we will download must be compatible with the python3x version. Otherwise, you will get an error on the poles before you even start coding.
 
  I have a repository where I describe the versions in more detail:
+ 
+  - The diagram below shows an example diagram from fritzing. I used a raspberry pi as Jetson is not defined in nano fritzing. Because there is no difference between raspberry pi and jetson nano pins :)
+
 
 " https://github.com/ElectronicEngineerr/DC-Motor-Driving-with-Jetson-Nano-"
 
