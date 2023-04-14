@@ -46,4 +46,6 @@ But in Jetson nano this is not so easy, because Jetson nano does not have any an
 
 6 Now let's make the connections of the servo motor...
 
+
+
 -
